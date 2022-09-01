@@ -15,6 +15,7 @@ font-family: 'Fredoka', sans-serif;
 h1,p{
 
 text-align: center;
+margin: 25px;
 
 }
 
@@ -22,7 +23,7 @@ text-align: center;
 h1{
 
 
-
+color: #E53170;
 
 
 }
@@ -30,7 +31,6 @@ h1{
 .container{
 
 width: 90%;
-border: 1px solid black;
 margin: 0 auto; 
 
 
@@ -42,6 +42,38 @@ margin: 0 auto;
 .cell{
 float: left;
 width: calc(100%/3);
-background-color: blue;
-border: 1px solid yellow;
+background-color: #0F0E17;
+text-align: left;
+color: white;
+
+}
+
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+img{
+
+float: left;
+width: 30%;
+margin-right: 10px;
+}
+
+
+span{
+
+ color: #6ECBE3;
+    
+}
+
+h2,h3,span{
+
+
+padding-top: 5px;
+padding-bottom: 5px;  
+
+
 }
