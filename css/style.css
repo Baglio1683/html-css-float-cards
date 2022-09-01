@@ -40,10 +40,11 @@ margin: 0 auto;
 
 
 /* Definizione stile celle  */
+ /* width: 30%;  */
 .cell{
 
 float: left;
-width: 30%;
+width: calc(100%/3 - 2rem);
 background-color: #0F0E17;
 text-align: left;
 color: white;
