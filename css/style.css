@@ -41,10 +41,11 @@ margin: 0 auto;
 
 .cell{
 float: left;
-width: calc(100%/3);
+width: 30%;
 background-color: #0F0E17;
 text-align: left;
 color: white;
+margin: 1rem;
 
 }
 
